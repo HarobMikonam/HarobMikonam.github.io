@@ -23,7 +23,7 @@
   --container-color: #fff;
   */
 
-   --hue: 250;
+  --hue: 250;
   --sat: 66%;
   --lig: 75%;
   --first-color:   hsl(var(--hue), var(--sat), var(--lig));
@@ -155,6 +155,7 @@ body.dark-theme {
 .profile {
   position: relative;
   padding-top: 3.5rem;
+
 }
 
 .profile__container {
@@ -167,22 +168,21 @@ body.dark-theme {
 }
 
 .profile__perfil {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(180deg, 
               hsla(var(--hue), var(--sat), var(--lig), 1) 0%, 
               hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
   border-radius: 50%;
   overflow: hidden;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
 }
 
 .profile__perfil img {
   width: 100%;
 }
-
 
 .profile__border {
   border: 3.5px solid var(--first-color);
@@ -524,7 +524,7 @@ body.dark-theme {
     height: 120px;
   }
   .profile__perfil img {
-    width: 90px;
+    /* width: 90px; */
   }
   .profile__profession {
     margin-bottom: 1.5rem;
