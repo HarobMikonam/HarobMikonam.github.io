@@ -23,7 +23,7 @@
   --container-color: #fff;
   */
 
-  --hue: 250207;
+   --hue: 250;
   --sat: 66%;
   --lig: 75%;
   --first-color:   hsl(var(--hue), var(--sat), var(--lig));
@@ -180,8 +180,9 @@ body.dark-theme {
 }
 
 .profile__perfil img {
-  width: 75px;
+  width: 100%;
 }
+
 
 .profile__border {
   border: 3.5px solid var(--first-color);
